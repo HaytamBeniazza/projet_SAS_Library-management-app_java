@@ -1,26 +1,22 @@
 package Model;
 import java.util.Date;
 
-public abstract class Loan {
+public class Loan {
 
-    private final int id;
     private final int subscriberId;
     private int bookIsbn;
-    private Date borrowDate;
-    private Date returnDate;
+    private String borrowDate;
+    private String returnDate;
 
 
-    public Loan(int id, int subscriberId, int bookIsbn, Date borrowDate, Date returnDate){
-        this.id = id;
+    public Loan(int subscriberId, int bookIsbn, String borrowDate, String returnDate){
         this.subscriberId = subscriberId;
         this.bookIsbn = bookIsbn;
         this.borrowDate = borrowDate;
         this.returnDate = returnDate;
     }
 
-    public int getId() {
-        return id;
-    }
+
 
     public int getSubscriberId() {
         return subscriberId;
@@ -30,19 +26,19 @@ public abstract class Loan {
         return bookIsbn;
     }
 
-    public Date getBorrowDate() {
+    public String getBorrowDate() {
         return borrowDate;
     }
 
-    public void setBorrowDate(Date borrowDate) {
+    public void setBorrowDate(String borrowDate) {
         this.borrowDate = borrowDate;
     }
 
-    public Date getReturnDate() {
+    public String getReturnDate() {
         return returnDate;
     }
 
-    public void setReturnDate(Date returnDate) {
+    public void setReturnDate(String returnDate) {
         this.returnDate = returnDate;
     }
 }

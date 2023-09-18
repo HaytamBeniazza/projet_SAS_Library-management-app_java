@@ -5,42 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6450a5-44e6-468b-aeec-e4e8cec8e86e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryAppDAO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/BookDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/BorrowDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/BorrowDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/LibrarianDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/LibrarianDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/ReturnDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/ReturnDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/UserDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Borrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Return.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BorrowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/BorrowServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/LibrarianService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/LibrarianServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ReturnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ReturnServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInput/UserInputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/LoanDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/LoanDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/LibraryStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/LibraryManagementApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/LoanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tool/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/BookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/BorrowDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/BorrowDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LibrarianDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LibrarianDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LibrarianDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/LibrarianDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ReturnDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ReturnDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Borrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Return.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BorrowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/BorrowServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/LibrarianService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/LibrarianService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/LibrarianServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ReturnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ReturnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInput/UserInputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Tools.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +60,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2V6r6rflTU4krqwQLhyUzwLMYRM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -71,8 +73,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/yc/Downloads/postgresql-42.6.0.jar",
+    "git-widget-placeholder": "DAO",
+    "last_opened_file_path": "C:/Users/yc/Downloads/Compressed/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar",
     "onboarding.tips.debug.path": "C:/Users/yc/IdeaProjects/LibraryAppDAO/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -89,16 +91,5 @@
       <updated>1694167201048</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

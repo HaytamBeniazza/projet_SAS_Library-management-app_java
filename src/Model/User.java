@@ -6,9 +6,6 @@ public class User {
     private String email;
     private int phone;
 
-    public User(){
-
-    }
 
     public User (String name, String email, int phone){
         this.name = name;

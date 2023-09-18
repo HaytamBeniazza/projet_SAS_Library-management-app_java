@@ -5,15 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/library";
-    private static final String JDBC_USER = "postgres";
-    private static final String JDBC_PASSWORD = "1234";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/library";
+    private static final String JDBC_USER = "root";
+    private static final String JDBC_PASSWORD = "";
 
     private static Connection connection = null;
 
     // Private constructor to prevent instantiation
-    private DatabaseConnection() {
-    }
 
     // Method to get a database connection
     public static Connection getConnection() {

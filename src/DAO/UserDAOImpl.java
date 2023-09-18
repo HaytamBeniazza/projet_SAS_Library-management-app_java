@@ -15,17 +15,19 @@ public class UserDAOImpl implements UserDAO{
     }
 
     @Override
-    public void addUser(User user) {
+    public boolean addUser(User user) {
         String sql = "INSERT INTO subscriber (name, email, phone) VALUES (?, ?, ?)";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getEmail());
             preparedStatement.setInt(3, user.getPhone());
-            preparedStatement.executeUpdate();
+            int rows = preparedStatement.executeUpdate();
+            return rows > 0;
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new RuntimeException("Failed to add a user.");
+            return false;
+
         }
     }
 
